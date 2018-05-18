@@ -18,15 +18,15 @@
 __________________________________________________________________________________________
 Т.е. для таблиц 
 
-* ***A(ID integer, VALUE Char(100))***
-* ***B(ID integer, VALUE Char(100))***
+* ***tableA (ID integer, VALUE Char(100))***
+* ***tableB (ID integer, VALUE Char(100))***
 
 
 возвращает результаты выполнения запроса
 ```sql
-  SELECT A.ID, A.VALUE, B.VALUE
-	  FROM A, B
-	  WHERE A.ID = B.ID;
+  SELECT tableA.ID, tableA.VALUE, tableB.VALUE
+	  FROM tableA, tableB
+	  WHERE tableA.ID = tableB.ID;
 ```
 
 _____________________________________________________________________________________________________
